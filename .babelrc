@@ -1,0 +1,17 @@
+{
+  "presets": ["flow", "react"],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "lodash"
+  ],
+  "env": {
+    "test": {
+      "presets": ["flow", "es2015", "react"],
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-class-properties"
+      ]
+    }
+  }
+}

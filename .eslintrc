@@ -1,0 +1,19 @@
+{
+  "extends": ["lokua", "prettier"],
+  "plugins": ["prettier"],
+  "env": {
+    "jasmine": true,
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+    "jest": true,
+    "Iterator": true,
+    "Iterable": true
+  },
+  "rules": {
+    "no-console": 0,
+    "quotes": [2, "single"],
+    "prettier/prettier": 1
+  }
+}
